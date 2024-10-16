@@ -18,3 +18,10 @@ hamburger.addEventListener("click", function () {
   hamburger.classList.toggle("hamburger-active");
   navMenu.classList.toggle("hidden");
 });
+
+// aos
+document.addEventListener('DOMContentLoaded', function() {
+  AOS.init();
+});
+
+
