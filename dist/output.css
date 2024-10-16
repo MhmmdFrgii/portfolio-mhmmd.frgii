@@ -640,6 +640,10 @@ video {
   z-index: 10;
 }
 
+.z-\[9999\] {
+  z-index: 9999;
+}
+
 .m-0 {
   margin: 0px;
 }
@@ -753,6 +757,30 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[667px\] {
+  width: 667px;
+}
+
+.w-\[px\] {
+  width: px;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
+.w-\[360px\] {
+  width: 360px;
+}
+
+.w-\[320px\] {
+  width: 320px;
 }
 
 .max-w-\[120px\] {
@@ -1410,6 +1438,10 @@ body {
 }
 
 @media (min-width: 640px) {
+  .sm\:w-full {
+    width: 100%;
+  }
+
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
